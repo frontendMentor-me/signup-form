@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    /* Colors*/
+    --red: hsl(0, 100%, 74%);
+    --green: hsl(154, 59%, 51%);
+    --blue: hsl(248, 32%, 49%);
+
+    --darkBlue: hsl(249, 10%, 26%);
+    --grayishBlue: hsl(246, 25%, 77%);
+
+    --fontPoppins: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fontPoppins);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./images/bg-intro-desktop.png'), var(--red);
+}
+
+body main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+}
+
+body main .right {
+    width: 100%;
+    margin: 0 3rem;
+}
+
+body main .left {
+    color: white;
+}
+
+body main .left h1 {
+    width: 75%;
+    font-size: 38px;
+    line-height: 50px;
+}
+
+body main .left p {
+    padding: 20px 0;
+}
+
+body main .right .offert {
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 12px;
+}
+
+body main .right .offert>p {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+body main .right .offert>p span {
+    font-weight: 600;
+}
+
+body main .right .form {
+    padding: 20px 35px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+body main .right .form input {
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+
+    border: 1px solid #DADADA;
+    transition: 0.5s all;
+}
+
+body main .right .form input:focus {
+    border: 1px solid #A2A2A2;
+}
+
+body main .right .form input::placeholder {
+    font-weight: 600;
+}
+
+body main .right .form button {
+    margin: 5px 0;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 15px 24px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+body main .right .form button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+body main .right .form small {
+    text-align: center;
+    font-size: 10px;
+    padding: 10px 0;
+    color: #A2A2A2;
+}
+
+body main .right .form small span {
+    color: var(--red);
+    font-weight: 700;
+}
