@@ -28,27 +28,32 @@
       </div>
       <form class="form">
         <div class="input">
-          <input type="text" name="firstName" placeholder="First Name" required>
-          <img src="./images/icon-error.svg" alt="">
+          <input class="inputForm" type="text" name="firstName" placeholder="First Name">
+          <p class="errorText firstName"></p>
+          <img class="iconError" src="./images/icon-error.svg" alt="">
         </div>
         <div class="input">
-          <input type="text" name="lastName" placeholder="Last Name" required>
-          <img src="./images/icon-error.svg" alt="">
+          <input class="inputForm" type="text" name="lastName" placeholder="Last Name">
+          <p class="errorText lastName"></p>
+          <img class="iconError" src="./images/icon-error.svg" alt="">
         </div>
         <div class="input">
-          <input type="email" name="email" placeholder="Email Address" required>
-          <img src="./images/icon-error.svg" alt="">
+          <input class="inputForm" type="email" name="email" placeholder="Email Address">
+          <p class="errorText email"></p>
+          <img class="iconError" src="./images/icon-error.svg" alt="">
         </div>
         <div class="input">
-          <input type="password" name="pwd" placeholder="Password" required>
-          <img src="./images/icon-error.svg" alt="">
+          <input class="inputForm" type="password" name="pwd" placeholder="Password">
+          <p class="errorText pwd"></p>
+          <img class="iconError" src="./images/icon-error.svg" alt="">
         </div>
-        <button type="button"> Claim your free trial</button>
+        <button type="submit"> Claim your free trial</button>
 
         <small>By clicking the button, you are agreeing to our <span class="tys">Terms and Services</span></small>
       </form>
     </div>
   </main>
+  <script src="./app.js"></script>
 </body>
 
 </html>
