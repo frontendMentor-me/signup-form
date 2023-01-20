@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Base Apparel](https://signup-form-ag171980.netlify.app/)
+- Live Site URL: [Sign up Form](https://signup-form-ag171980.netlify.app/)
 
 ## My process
 
